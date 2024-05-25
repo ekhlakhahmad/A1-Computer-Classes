@@ -100,8 +100,8 @@ const Footer = () => {
 				</div>
 			</div>
 			<p className="text-center p-2 bg-[#061a25] text-white">
-				© 2016-2024 | A1 Computer Classes & Management Pvt. Ltd. | All Rights
-				Reserved.
+				© 2016-{new Date().getFullYear()} | A1 Computer Classes & Management Pvt.
+				Ltd. | All Rights Reserved.
 			</p>
 		</div>
 	);

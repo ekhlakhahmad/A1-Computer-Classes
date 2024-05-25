@@ -7,6 +7,7 @@ import Location from './components/Location'
 import Footer from './components/Footer/Footer'
 import Facility from './components/Facility/Facility'
 import ProjectCounter from './components/ProjectCounter/ProjectCounter'
+import Testimonial from './components/Testimonial/Testimonial'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       <Content/>
       <Course />
       <Facility />
-      <ProjectCounter/>
+      <ProjectCounter />
+      <Testimonial/>
       <Location />
       <Footer/>
     </div>

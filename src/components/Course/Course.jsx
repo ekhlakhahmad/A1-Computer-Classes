@@ -23,14 +23,14 @@ const Course = () => {
 				</div>
 				<div>
 					<img
-						src="https://study.com/cimages/videopreview/z8npl9p2zo.jpg"
+						src="https://lh3.googleusercontent.com/proxy/WrjT8AR6tk1rNRw57hPiDAMZyqaLAOyQn8UMjOyySwnGlU5jpGVz2sM03hSk3yL-4HrOluBHSvsEAY-LatcTisc9nCW2iSpAnO7NyCCzm__AgNgtXQ"
 						alt="course"
 					/>
 					<p>DTP Courses</p>
 				</div>
 				<div>
 					<img
-						src="https://lh3.googleusercontent.com/proxy/tGC_L1Z5fuvOPS98h0R3TFFUsdoLywAPSOgK68mFMVUEiGmTJ656XDzCuE3cTWIupyOpxit_fHQ38uRVpR6lczc1Uhc"
+						src="https://atijsr.com/img/course/computer-dca.jpeg"
 						alt="course"
 					/>
 					<p>PGDCA Course</p>
