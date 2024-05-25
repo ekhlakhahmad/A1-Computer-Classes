@@ -1,0 +1,17 @@
+.content-sec {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 50px;
+	h1 {
+		font-size: 50px;
+		text-align: center;
+		color: #0075bb;
+		font-weight: bold;
+	}
+	span {
+		color: #fe0000;
+	}
+}

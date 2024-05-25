@@ -1,8 +1,8 @@
 import React from "react";
 import { FaLock, FaUser } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
-import { MdLanguage, MdOutlinePayment } from "react-icons/md";
-// import logo from "../utilities/headingLogo.webp";
+import { MdDarkMode, MdLanguage, MdOutlineLightMode, MdOutlinePayment } from "react-icons/md";
+import './style.css';
 
 const Header = () => {
 	return (
@@ -28,8 +28,8 @@ const Header = () => {
 						Register
 					</a>
 					<a href="#">
-						<MdOutlinePayment />
-						Payment
+						<MdOutlineLightMode />
+						<MdDarkMode />
 					</a>
 				</div>
 			</div>

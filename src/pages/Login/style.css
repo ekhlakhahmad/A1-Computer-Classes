@@ -1,0 +1,27 @@
+.login-sec{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 50px;
+	img{
+		width: 600px;
+	}
+	form{
+		gap: 30px;
+		input{
+			border: none;
+		}
+		#LoginBtn{
+			border: .5px solid #dadada;
+		}
+	}
+}
+.userInput{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border: 0.5px solid #dadada;
+	outline: none;
+	padding: 5px;
+	border-radius: 5px;
+}

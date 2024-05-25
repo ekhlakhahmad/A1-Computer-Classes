@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const Register = () => {
 	return (
@@ -24,14 +25,6 @@ const Register = () => {
 							type="password"
 							placeholder="Create Password"
 							id="createPass"
-						/>
-					</div>
-					<div>
-						<label htmlFor="confirmPass">Confirm Password:</label>
-						<input
-							type="password"
-							placeholder="Confirm Password"
-							id="confirmPass"
 						/>
 					</div>
 					<div>

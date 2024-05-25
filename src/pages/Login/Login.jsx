@@ -1,11 +1,13 @@
 import React from "react";
 import { FaLock, FaUser } from "react-icons/fa";
+import "./style.css";
+
 
 const Login = () => {
 	return (
 		<div className="login-sec">
 			<img
-				src="https://img.freepik.com/free-vector/privacy-policy-concept-illustration_114360-7853.jpg?t=st=1716630273~exp=1716633873~hmac=e67d7ecb994361d496c1a5ff54abf32aa8499614e1b761aceab442c4d157ad61&w=740"
+				src="https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37336.jpg?t=st=1716664095~exp=1716667695~hmac=18e0ee452a77b28e81e238602f9330f98d9f9f79359ba50acfd31afb329386ac&w=740"
 				alt=""
 			/>
 			<div className="formArea">

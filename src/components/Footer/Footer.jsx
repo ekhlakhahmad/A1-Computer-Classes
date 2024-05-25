@@ -11,6 +11,8 @@ import { IoLogoWhatsapp, IoMdCall } from "react-icons/io";
 import { LuInstagram } from "react-icons/lu";
 import { MdLanguage, MdOutlineEmail } from "react-icons/md";
 import { RiInstagramFill } from "react-icons/ri";
+import "./style.css";
+
 
 const Footer = () => {
 	return (

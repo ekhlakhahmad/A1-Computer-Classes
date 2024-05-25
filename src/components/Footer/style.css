@@ -1,0 +1,58 @@
+.footerSec {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+	background-color: #01314c;
+	color: #fff;
+}
+.quickLink {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	li {
+		list-style-type: disc;
+	}
+	a {
+		display: flex;
+		align-items: center;
+		gap: 2px;
+	}
+}
+.registerOffice {
+	width: 25%;
+	li {
+		list-style-type: disc;
+	}
+	a {
+		display: flex;
+		align-items: center;
+		gap: 2px;
+	}
+}
+.corporateOffice {
+	width: 25%;
+	li {
+		list-style-type: disc;
+	}
+	a {
+		display: flex;
+		align-items: center;
+		gap: 2px;
+	}
+}
+.socialMedia {
+	width: 25%;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+    a{
+        font-size: 20px;
+		padding: 10px;
+		background-color: white;
+		border-radius: 3px;
+    }
+	:hover{
+		background-color: #dbd7d7;
+	}
+}

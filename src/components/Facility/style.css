@@ -1,0 +1,39 @@
+.facility-sec {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+    padding: 50px;
+	h1 {
+		font-size: 50px;
+		text-align: center;
+		color: #0075bb;
+		font-weight: bold;
+	}
+	span {
+		color: #fe0000;
+	}
+	.FacilitiesBox {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		cursor: pointer;
+		gap: 40px;
+		img{
+			width: 300px;
+			height: 200px;
+			object-position: top;
+			object-fit: cover;
+		}
+		p {
+			background-color: #0075bb;
+			width: 100%;
+			text-align: center;
+			color: #fff;
+			font-size: 20px;
+			padding: 5px;
+		}
+	}
+}
