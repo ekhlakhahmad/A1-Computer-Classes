@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer'
 import Facility from './components/Facility/Facility'
 import ProjectCounter from './components/ProjectCounter/ProjectCounter'
 import Testimonial from './components/Testimonial/Testimonial'
+import Register from './pages/Register/Register'
+import Login from './pages/Login/Login'
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
       <Course />
       <Facility />
       <ProjectCounter />
-      <Testimonial/>
+      <Testimonial />
+      <Register />
+      <Login/>
       <Location />
       <Footer/>
     </div>
