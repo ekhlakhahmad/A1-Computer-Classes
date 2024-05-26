@@ -4,14 +4,17 @@
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
-	padding: 50px;
+	padding: 3vw;
 	h1 {
-		font-size: 50px;
+		font-size: 3vw;
 		text-align: center;
 		color: #0075bb;
 		font-weight: bold;
 	}
 	span {
 		color: #fe0000;
+	}
+	p{
+		font-size: 2vmin;
 	}
 }

@@ -9,16 +9,15 @@ import Home from './pages/Home/Home'
 const App = () => {
   return (
     <div>
-      <Header />
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
-          <Route path='/footer' element={<Footer />} />
       </Routes>
-      </BrowserRouter>
       <Footer/>
+      </BrowserRouter>
     </div>
   )
 }

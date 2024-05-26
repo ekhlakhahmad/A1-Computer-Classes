@@ -5,9 +5,9 @@
 	justify-content: center;
 	align-items: center;
     background-color: #f5f1f1;
-    padding: 50px;
+    padding: 3vw;
 	h1 {
-		font-size: 50px;
+		font-size: 3vw;
 		text-align: center;
 		color: #0075bb;
 		font-weight: bold;
@@ -15,26 +15,27 @@
 	span {
 		color: #fe0000;
 	}
-	.courseBox {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		cursor: pointer;
-		gap: 40px;
-		img{
-			width: 300px;
-			height: 200px;
-			object-fit: cover;
-			object-position: top;
-		}
-		p {
-			background-color: #0075bb;
-			width: 100%;
-			text-align: center;
-			color: #fff;
-			font-size: 20px;
-			padding: 5px;
-		}
+}
+.courseBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	cursor: pointer;
+	gap: 40px;
+	img{
+		width: 300px;
+		height: 200px;
+		min-height: fit-content;
+		object-fit: cover;
+		object-position: top;
+	}
+	p {
+		background-color: #0075bb;
+		width: 100%;
+		text-align: center;
+		color: #fff;
+		font-size: 1vmax;
+		padding: 5px;
 	}
 }

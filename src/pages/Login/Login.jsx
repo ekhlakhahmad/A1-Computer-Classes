@@ -12,7 +12,7 @@ const Login = () => {
 			/>
 			<div className="formArea">
 				<h1>Login Form</h1>
-				<form action="">
+				<form className="login-form" action="">
 					<div>
 						<label htmlFor="userName">Username:</label>
 						<div className="userInput">

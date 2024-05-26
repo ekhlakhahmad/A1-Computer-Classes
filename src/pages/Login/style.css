@@ -6,15 +6,24 @@
 	img{
 		width: 600px;
 	}
-	form{
-		gap: 30px;
-		input{
-			border: none;
-		}
-		#LoginBtn{
-			border: .5px solid #dadada;
-		}
+}
+.login-form{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	gap: 20px;
+	input{
+		width: 100%;
+		border: none;
+		outline: none;
+		padding: 5px 8px;
+		border-radius: 5px;
 	}
+}
+#LoginBtn{
+	border: .5px solid #dadada;
 }
 .userInput{
 	display: flex;
