@@ -72,6 +72,9 @@ h3{
 p{
 	font-size: 2vmin;
 }
+a{
+	font-size: 3vmin;
+}
 @media screen and (max-width: 768px){
 	.footerSec{
 		display: flex;
@@ -80,15 +83,15 @@ p{
 		justify-content: center;
 	}
 	.quickLink{
-		width: 50%;
+		width: 100%;
 	}
 	.registerOffice{
-		width: 50%;
+		width: 100%;
 	}
 	.corporateOffice{
-		width: 50%;
+		width: 100%;
 	}
 	.socialMedia{
-		width: 50%;
+		width: 100%;
 	}
 }
