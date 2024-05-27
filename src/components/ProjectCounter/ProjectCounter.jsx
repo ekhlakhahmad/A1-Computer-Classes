@@ -13,35 +13,35 @@ const ProjectCounter = () => {
 					<FaUsers />
 				</span>
 				<h2>2000+</h2>
-				<p>Students</p>
+				<p className="couterPara">Students</p>
 			</div>
 			<div className="projectSec">
 				<span className="text-4xl text-[#0075bb]">
 					<FaCity />
 				</span>
 				<h2>30+</h2>
-				<p>Institute</p>
+				<p className="couterPara">Institute</p>
 			</div>
 			<div className="projectSec">
 				<span className="text-4xl text-[#0075bb]">
 					<SlBookOpen />
 				</span>
 				<h2>20+</h2>
-				<p>Course</p>
+				<p className="couterPara">Course</p>
 			</div>
 			<div className="projectSec">
 				<span className="text-4xl text-[#0075bb]">
 					<FaLocationDot />
 				</span>
 				<h2>3+</h2>
-				<p>State</p>
+				<p className="couterPara">State</p>
 			</div>
 			<div className="projectSec">
 				<span className="text-4xl text-[#0075bb]">
 					<FaFlag />
 				</span>
 				<h2>30+</h2>
-				<p>Districts</p>
+				<p className="couterPara">Districts</p>
 			</div>
 		</div>
 	);
