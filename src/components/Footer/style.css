@@ -69,8 +69,8 @@ h2{
 h3{
 	font-size: 3vw;
 }
-.footerList, .footerPara{
-	font-size: 2vw;
+.footerList{
+	font-size: 3vw;
 }
 @media screen and (max-width: 768px){
 	.footerSec{

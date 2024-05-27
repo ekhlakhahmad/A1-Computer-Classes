@@ -45,9 +45,9 @@ const Footer = () => {
 						Register Address
 					</h2>
 					<h3>QUANTUM COMPUTER ACADEMY & MANAGEMENT PVT.LTD.</h3>
-					<p className="footerPara">
+					<h3>
 						Lala Babu Colony, Behind High School Chainpur, Siwan Bihar (841203)
-					</p>
+					</h3>
 					<a href="mailto:quantumcomputeracademy@gmail.com">
 						<MdOutlineEmail />
 						quantumcomputeracademy@gmail.com
@@ -62,7 +62,7 @@ const Footer = () => {
 						Corporate Address
 					</h2>
 					<h3>A1 COMPUTER CLASSES & MANAGEMENT PVT.LTD.</h3>
-					<p className="footerPara">Near Ideal Public School Hasanpur Siwan Bihar 841236.</p>
+					<h3>Near Ideal Public School Hasanpur Siwan Bihar 841236.</h3>
 					<a href="mailto:a1computerclasses@gmail.com">
 						<MdOutlineEmail />
 						a1computerclasses@gmail.com
