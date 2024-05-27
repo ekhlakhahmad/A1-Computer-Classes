@@ -72,9 +72,6 @@ h3{
 p{
 	font-size: 2vmin;
 }
-a{
-	font-size: 3vmin;
-}
 @media screen and (max-width: 768px){
 	.footerSec{
 		display: flex;

@@ -30,12 +30,12 @@
 		object-fit: cover;
 		object-position: top;
 	}
-	p {
+	.coursePara {
 		background-color: #0075bb;
 		width: 100%;
 		text-align: center;
 		color: #fff;
-		font-size: 1vmax;
+		font-size: 1.2vmax;
 		padding: 5px;
 	}
 }
