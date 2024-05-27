@@ -68,12 +68,13 @@ ul {
 @media screen and (max-width: 768px) {
   .header-container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
   }
   .contact-details{
-	display: none;
-  }
-  .link-details{
+	font-size: 1.2vmax;
+}
+.link-details{
+	font-size: 1.2vmax;
 	display: flex;
 	justify-content: center;
 	align-items: center;
