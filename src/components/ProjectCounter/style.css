@@ -14,10 +14,10 @@
 	justify-content: center;
 	gap: 10px;
 	padding: 10px;
-    font-size: 20px;
+    font-size: 2vmax;
 }
 .couterPara{
-	font-size: 2vw;
+	font-size: 1.2vmax;
 }
 span{
 	font-size: 4vw;

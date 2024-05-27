@@ -1,19 +1,30 @@
 .login-sec{
-	width: 90%;
 	display: flex;
-	justify-content: center;
-	padding: 20px 50px;
+	justify-content: space-between;
+	padding: 20px 3vw;
 	img{
 		width: 600px;
 	}
 }
+.loginformArea{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	h1{
+		font-size: 40px;
+		font-weight: bold;
+	}
+}
 .login-form{
-	width: 80%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 20px;
-	gap: 20px;
+	padding: 2vw;
+	gap: 2vw;
 	input{
 		width: 100%;
 		border: none;
@@ -22,15 +33,31 @@
 		border-radius: 5px;
 	}
 }
+.loginpara{
+	font-size: 1.2vmax;
+	text-align: center;
+}
 #LoginBtn{
 	border: .5px solid #dadada;
 }
 .userInput{
 	display: flex;
 	align-items: center;
-	width: 100%;
 	border: 0.5px solid #dadada;
 	outline: none;
 	padding: 5px;
 	border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+	.login-sec{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.loginformArea{
+		width: 100%;
+		padding: 3vw;
+	}
 }

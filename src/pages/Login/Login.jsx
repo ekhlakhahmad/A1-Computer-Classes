@@ -10,7 +10,7 @@ const Login = () => {
 				src="https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37336.jpg?t=st=1716664095~exp=1716667695~hmac=18e0ee452a77b28e81e238602f9330f98d9f9f79359ba50acfd31afb329386ac&w=740"
 				alt=""
 			/>
-			<div className="formArea">
+			<div className="loginformArea">
 				<h1>Login Form</h1>
 				<form className="login-form" action="">
 					<div>
@@ -29,8 +29,8 @@ const Login = () => {
 					</div>
 					<div className="submitBtn">
 						<input type="submit" value="Login" id="LoginBtn" />
-						<p>
-							if you have not already account? <a href="#">Register</a>
+						<p className="loginpara">
+							if you have not already account? <a className="underline text-blue-800" href="#">Register</a>
 						</p>
 					</div>
 				</form>

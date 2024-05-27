@@ -27,12 +27,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 30px;
+	padding: 10px 3vw;
 	background-color: #fff;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-	img {
-		width: 200px;
-	}
 }
 ul {
 	display: flex;
@@ -62,7 +59,9 @@ ul {
 	cursor: pointer;
 	font-size: 18px;
 }
-
+.logo{
+	width: 10vw;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -80,7 +79,7 @@ ul {
 	align-items: center;
   }
   .heading-sec img{
-	width: 120px;
+	width: 20vw;
   }
   .heading-sec ul{
 	display: none;

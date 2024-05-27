@@ -53,7 +53,7 @@ const Header = () => {
 			</div>
 			<div className="heading-sec">
 				<NavLink to="/">
-					<img
+					<img className="logo"
 						src="https://a1computerclasses.com/wp-content/uploads/2024/03/111.jpg"
 						alt="logo"
 					/>

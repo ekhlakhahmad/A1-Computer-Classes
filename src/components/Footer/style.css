@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding: 50px;
+	padding: 3vw;
 	background-color: #01314c;
 	color: #fff;
 	gap: 20px;
@@ -70,8 +70,17 @@ h3{
 	font-size: 3vw;
 }
 .footerList{
-	font-size: 3vw;
+	font-size: 1.2vmax;
 }
+
+.lastFooter{
+	font-size: 1.2vmax;
+	p{
+		padding: 15px 3vw;
+	}
+}
+
+
 @media screen and (max-width: 768px){
 	.footerSec{
 		display: flex;
