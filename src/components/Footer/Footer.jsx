@@ -22,7 +22,7 @@ const Footer = () => {
 					<h2 className="border-b-2 font-semibold text-2xl text-center mb-4">
 						Quick Link
 					</h2>
-					<ul>
+					<ul className="footerList">
 						<li>
 							<a href="#">Home</a>
 						</li>
@@ -45,7 +45,7 @@ const Footer = () => {
 						Register Address
 					</h2>
 					<h3>QUANTUM COMPUTER ACADEMY & MANAGEMENT PVT.LTD.</h3>
-					<p>
+					<p className="footerPara">
 						Lala Babu Colony, Behind High School Chainpur, Siwan Bihar (841203)
 					</p>
 					<a href="mailto:quantumcomputeracademy@gmail.com">
@@ -62,7 +62,7 @@ const Footer = () => {
 						Corporate Address
 					</h2>
 					<h3>A1 COMPUTER CLASSES & MANAGEMENT PVT.LTD.</h3>
-					<p>Near Ideal Public School Hasanpur Siwan Bihar 841236.</p>
+					<p className="footerPara">Near Ideal Public School Hasanpur Siwan Bihar 841236.</p>
 					<a href="mailto:a1computerclasses@gmail.com">
 						<MdOutlineEmail />
 						a1computerclasses@gmail.com
