@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Register = () => {
 	return (
@@ -47,8 +48,8 @@ const Register = () => {
 					</div>
 					<div className="submitBtn">
 						<input type="submit" value="Register" />
-						<p>
-							if you have already account? <a href="#">Login</a>
+						<p className="registerPara">
+							if you have already account? <Link to="/login" className="underline text-blue-800"> Login </Link>
 						</p>
 					</div>
 				</form>

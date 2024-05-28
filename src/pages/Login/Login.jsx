@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLock, FaUser } from "react-icons/fa";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
@@ -30,7 +31,7 @@ const Login = () => {
 					<div className="submitBtn">
 						<input type="submit" value="Login" id="LoginBtn" />
 						<p className="loginpara">
-							if you have not already account? <a className="underline text-blue-800" href="#">Register</a>
+							if you don't have already account? <Link to="/register" className="underline text-blue-800"> Register </Link>
 						</p>
 					</div>
 				</form>

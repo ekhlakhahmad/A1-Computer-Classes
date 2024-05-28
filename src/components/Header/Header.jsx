@@ -10,16 +10,28 @@ import {
 import "./style.css";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx";
+import { ImCross } from "react-icons/im";
 
 const Header = () => {
 	const [dark, setDark] = useState(true);
+	const [active, setActive] = useState(false);
+	const [humburgerMenu, setHumburgerMenu] = useState(true);
 
 	const toggleDarkMode = () => {
 		setDark(!dark);
 	};
 
+	const toggleHumburgerMenu = () => {
+		setHumburgerMenu(!humburgerMenu);
+		setActive(!active);
+	};
+
 	return (
-		<>
+		<div>
+			<div
+				className={`${active ? "overlayActive " : "overlayHidden"}`}
+				onClick={toggleHumburgerMenu}></div>
 			<div className="header-container">
 				<div className="contact-details">
 					<a href="www.a1computerclasses.co.in">
@@ -53,53 +65,60 @@ const Header = () => {
 			</div>
 			<div className="heading-sec">
 				<NavLink to="/">
-					<img className="logo"
+					<img
+						className="logo"
 						src="https://a1computerclasses.com/wp-content/uploads/2024/03/111.jpg"
 						alt="logo"
 					/>
 				</NavLink>
-				<ul>
+				<ul className={`navbar ${active ? "navactive" : "notactive"}`}>
 					<li>
-						<NavLink className="navLink" to="/">
+						<NavLink className="navLink" to="/" onClick={toggleHumburgerMenu}>
 							Home
 						</NavLink>
 					</li>
 					<li>
-						<NavLink className="navLink" to="/about">
-							About
-						</NavLink>
-					</li>
-					<li>
-						<NavLink className="navLink" to="/course">
+						<NavLink
+							className="navLink"
+							to="/course"
+							onClick={toggleHumburgerMenu}>
 							Course
 						</NavLink>
 					</li>
 					<li>
-						<NavLink className="navLink" to="/studentZone">
-							Student Zone
-						</NavLink>
-					</li>
-					<li>
-						<NavLink className="navLink" to="/gallery">
+						<NavLink
+							className="navLink"
+							to="/gallery"
+							onClick={toggleHumburgerMenu}>
 							Gallery
 						</NavLink>
 					</li>
 					<li>
-						<NavLink className="navLink" to="/franshisee">
-							Franshisee
+						<NavLink
+							className="navLink"
+							to="/about"
+							onClick={toggleHumburgerMenu}>
+							About
 						</NavLink>
 					</li>
 					<li>
-						<NavLink className="navLink" to="/contact">
+						<NavLink
+							className="navLink"
+							to="/contact"
+							onClick={toggleHumburgerMenu}>
 							Contact
 						</NavLink>
 					</li>
 				</ul>
-				<div className="humburgerMenu">
-					<GiHamburgerMenu />
+				<div className="humburgerMenu" onClick={toggleHumburgerMenu}>
+					{humburgerMenu ? (
+						<GiHamburgerMenu />
+					) : (
+						<RxCross1 className="font-extrabold text-xl" />
+					)}
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

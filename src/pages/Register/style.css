@@ -36,10 +36,6 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		a{
-			text-decoration: underline;
-			color: blue;
-		}
 	}
 }
 input[type="submit"]{
@@ -49,6 +45,9 @@ input[type="submit"]{
 input[type="submit"]:hover{
 	background-color: #ebeeee;
 	cursor: pointer;
+}
+.registerPara{
+	font-size: 1.2vmax;
 }
 
 

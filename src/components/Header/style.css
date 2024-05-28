@@ -31,70 +31,116 @@
 	background-color: #fff;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-ul {
+.overlayActive {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.151);
+	backdrop-filter: blur(2px);
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: calc(100vh - 90px);
+	top: 110px;
+	left: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.overlayHidden {
+	display: none;
+}
+
+.navbar {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: 1vw;
 }
+
 .navLink {
 	margin: 0 5px;
 	padding: 5px 8px;
 	font-size: large;
 }
+
 .navLink:hover {
 	background-color: #0075bb;
 	color: #fff;
 	border-radius: 5px;
 	cursor: pointer;
 }
+
 .active {
 	background-color: #0075bb;
 	color: #fff;
 	border-radius: 5px;
 	cursor: pointer;
 }
-.humburgerMenu{
+.humburgerMenu {
 	display: none;
 	cursor: pointer;
 	font-size: 18px;
 }
-.logo{
+.logo {
 	width: 10vw;
 }
 
 
 @media screen and (max-width: 768px) {
-  .header-container {
-	display: flex;
-	justify-content: space-between;
-  }
-  .contact-details{
+	.header-container {
+			display: flex;
+			justify-content: space-between;
+		}
+.contact-details {
 	font-size: 1.2vmax;
 }
-.link-details{
+.link-details {
 	font-size: 1.2vmax;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
-  .heading-sec img{
+}
+.heading-sec img {
 	width: 20vw;
-  }
-  .heading-sec ul{
-	display: none;
-  }
-  .humburgerMenu{
-	display: block;
-  }
+}
+.navbar {
+	position: absolute;
+	background: #fff;
+	z-index: 10;
+	width: 100%;
+	left: 0;
+	padding: 10px;
+	gap: 10px;
+	transform: translateY(-100%);
+	animation: slideFromTop 0.8s ease forwards;
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1279px){
-	.heading-sec img{
+.navactive {
+	flex-direction: column;
+}
+
+.notactive {
+	display: none;
+}
+.humburgerMenu {
+	display: block;
+}
+}
+@keyframes slideFromTop {
+	0% {
+		transform: translateY(-100%);
+	}
+
+	100% {
+		transform: translateY(60%);
+	}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+	.heading-sec img {
 		width: 150px;
 	}
-	.navLink{
+.navLink {
 		font-size: 14px;
 	}
 }

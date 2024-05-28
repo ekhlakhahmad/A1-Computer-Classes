@@ -1,0 +1,21 @@
+.about-sec{
+    padding: 20px 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    h1 {
+		font-size: 3vw;
+		text-align: center;
+		color: #0075bb;
+		font-weight: bold;
+	}
+	span {
+		color: #fe0000;
+	}
+}
+.aboutPara{
+    font-size: 1.2vmax;
+    text-align: justify;
+}
