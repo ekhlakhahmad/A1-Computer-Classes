@@ -33,7 +33,7 @@
 }
 .overlayActive {
 	display: block;
-	background-color: rgba(0, 0, 0, 0.151);
+	/* background-color: rgba(0, 0, 0, 0.151); */
 	/* backdrop-filter: blur(2px); */
 	position: absolute;
 	z-index: 9;
