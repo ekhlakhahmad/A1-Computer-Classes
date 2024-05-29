@@ -12,7 +12,8 @@
 		font-weight: bold;
 	}
 	span {
-		color: #fe0000;
+        color: #fe0000;
+        font-size: 3vw;
 	}
 }
 .aboutPara{

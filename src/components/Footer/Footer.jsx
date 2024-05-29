@@ -19,7 +19,7 @@ const Footer = () => {
 		<div>
 			<div className="footerSec">
 				<div className="quickLink">
-					<h2 className="border-b-2 font-semibold text-2xl text-center mb-4">
+					<h2 className="underline font-semibold text-2xl mb-4">
 						Quick Link
 					</h2>
 					<ul className="footerList">
@@ -41,7 +41,7 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className="registerOffice">
-					<h2 className="border-b-2 font-semibold text-2xl text-center mb-4">
+					<h2 className="underline font-semibold text-2xl mb-4">
 						Register Address
 					</h2>
 					<h3>QUANTUM COMPUTER ACADEMY & MANAGEMENT PVT.LTD.</h3>
@@ -58,7 +58,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<div className="corporateOffice">
-					<h2 className="border-b-2 font-semibold text-2xl text-center mb-4">
+					<h2 className="underline font-semibold text-2xl mb-4">
 						Corporate Address
 					</h2>
 					<h3>A1 COMPUTER CLASSES & MANAGEMENT PVT.LTD.</h3>
@@ -73,7 +73,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<div>
-					<h2 className="border-b-2 font-semibold text-2xl text-center mb-4">
+					<h2 className="underline font-semibold text-2xl mb-4">
 						Social Link
 					</h2>
 					<div className="socialMedia">

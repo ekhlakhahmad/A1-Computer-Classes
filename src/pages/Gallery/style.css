@@ -1,0 +1,33 @@
+.gallery-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+    padding: 20px 3vw;
+
+    h1 {
+        font-size: 3vw;
+        text-align: center;
+        color: #0075bb;
+        font-weight: bold;
+    }
+    
+    span {
+        font-size: 3vw;
+        color: #fe0000;
+    }
+}
+.allImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    img{
+        border: .5px solid #0075bb;
+        width: 30vw;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}

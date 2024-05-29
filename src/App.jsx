@@ -7,6 +7,7 @@ import Login from './pages/Login/Login'
 import Home from './pages/Home/Home'
 import About from "./pages/About/About";
 import Contact from './pages/Contact/Contact'
+import Gallery from './pages/Gallery/Gallery'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
 					<Route path="/register" element={<Register />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/contact" element={<Contact />} />
+					<Route path="/gallery" element={<Gallery />} />
 				</Routes>
 				<Footer />
 			</BrowserRouter>
