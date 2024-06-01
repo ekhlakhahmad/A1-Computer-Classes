@@ -12,6 +12,7 @@ import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
 import { ImCross } from "react-icons/im";
+import Switcher from "../Switcher";
 
 const Header = () => {
 	const [dark, setDark] = useState(true);
@@ -28,11 +29,11 @@ const Header = () => {
 	};
 
 	return (
-		<div>
+		<div className="sticky top-0 z-50">
 			<div
 				className={`${active ? "overlayActive " : "overlayHidden"}`}
 				onClick={toggleHumburgerMenu}></div>
-			<div className="header-container">
+			<div className="header-container dark:bg-[#161f2b]">
 				<div className="contact-details">
 					<a href="www.a1computerclasses.co.in">
 						<MdLanguage />
@@ -56,14 +57,10 @@ const Header = () => {
 							Register
 						</button>
 					</NavLink>
-					<div
-						className="flex items-center cursor-pointer"
-						onClick={toggleDarkMode}>
-						{dark ? <MdDarkMode /> : <MdOutlineLightMode />}
-					</div>
+					<Switcher />
 				</div>
 			</div>
-			<div className="heading-sec">
+			<div className="heading-sec bg-white dark:bg-[#101720]">
 				<NavLink to="/">
 					<img
 						className="logo"

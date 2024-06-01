@@ -71,6 +71,15 @@ h3{
 }
 .footerList{
 	font-size: 1.2vmax;
+	li {
+			a {
+				transition: all 0.3s ease-in-out;
+	
+				&:hover {
+					color: #0075bb;
+				}
+			}
+		}
 }
 
 .lastFooter{

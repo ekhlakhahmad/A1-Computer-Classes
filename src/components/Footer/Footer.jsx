@@ -1,27 +1,16 @@
 import React from "react";
-import {
-	FaFacebook,
-	FaFacebookSquare,
-	FaInstagram,
-	FaInstagramSquare,
-	FaYoutube,
-} from "react-icons/fa";
+import { FaFacebook, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoWhatsapp, IoMdCall } from "react-icons/io";
-import { LuInstagram } from "react-icons/lu";
-import { MdLanguage, MdOutlineEmail } from "react-icons/md";
-import { RiInstagramFill } from "react-icons/ri";
+import { MdOutlineEmail } from "react-icons/md";
 import "./style.css";
-
 
 const Footer = () => {
 	return (
 		<div>
-			<div className="footerSec">
+			<div className="footerSec bg-[#01314c] dark:bg-darkColSecondary">
 				<div className="quickLink">
-					<h2 className="underline font-semibold text-2xl mb-4">
-						Quick Link
-					</h2>
+					<h2 className="underline font-semibold text-2xl mb-4">Quick Link</h2>
 					<ul className="footerList">
 						<li>
 							<a href="#">Home</a>
@@ -73,9 +62,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<div>
-					<h2 className="underline font-semibold text-2xl mb-4">
-						Social Link
-					</h2>
+					<h2 className="underline font-semibold text-2xl mb-4">Social Link</h2>
 					<div className="socialMedia">
 						<a
 							className="text-[#FF0000]"
@@ -101,8 +88,8 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="lastFooter">
-				<p className="text-center p-2 bg-[#061a25] text-white">
+			<div className="lastFooter bg-[#09334c] dark:bg-darkColPrimary">
+				<p className="text-center p-2 text-white">
 					© 2016-{new Date().getFullYear()} | A1 Computer Classes & Management
 					Pvt. Ltd. | All Rights Reserved.
 				</p>

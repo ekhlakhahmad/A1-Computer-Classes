@@ -7,7 +7,7 @@ import './style.css';
 
 const ProjectCounter = () => {
 	return (
-		<div className="project">
+		<div className="project bg-[#f5f1f1] dark:bg-[#161f2b]">
 			<div className="projectSec">
 				<span className="text-4xl text-[#0075bb]">
 					<FaUsers />
