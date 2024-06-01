@@ -68,7 +68,7 @@ const Header = () => {
 						alt="logo"
 					/>
 				</NavLink>
-				<ul className={`navbar ${active ? "navactive" : "notactive"}`}>
+				<ul className={`navbar ${active ? "navactive" : "notactive"} bg-lightColPrimary dark:bg-darkColPrimary`}>
 					<li>
 						<NavLink className="navLink" to="/" onClick={toggleHumburgerMenu}>
 							Home
