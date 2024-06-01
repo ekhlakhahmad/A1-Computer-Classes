@@ -76,6 +76,23 @@ const Contact = () => {
 							+91 8603156431
 						</a>
 					</div>
+					<div className="py-5">
+						<h2 className="underline font-semibold text-2xl mb-4">
+							Corporate Address
+						</h2>
+						<h3>A1 COMPUTER CLASSES & MANAGEMENT PVT.LTD.</h3>
+						<h3>Near Ideal Public School Hasanpur Siwan Bihar 841236.</h3>
+						<a
+							className="flex items-center gap-1"
+							href="mailto:quantumcomputeracademy@gmail.com">
+							<MdOutlineEmail />
+							a1computerclasses@gmail.com
+						</a>
+						<a className="flex items-center gap-1" href="tel:+918603156431">
+							<IoMdCall />
+							+91 8603156431
+						</a>
+					</div>
 				</div>
 			</div>
 			<Location />
