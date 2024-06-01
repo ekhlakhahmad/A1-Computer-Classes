@@ -43,7 +43,6 @@ input[type="submit"]{
 	font-weight: 500;
 }
 input[type="submit"]:hover{
-	background-color: #ebeeee;
 	cursor: pointer;
 }
 .registerPara{

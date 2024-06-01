@@ -14,15 +14,26 @@ const Register = () => {
 				<form className="register-form" action="">
 					<div>
 						<label htmlFor="stname">Name:</label>
-						<input type="text" placeholder="Enter Student Name" id="stname" />
+						<input
+							className="bg-[#ffffff] dark:bg-[#161f2b]"
+							type="text"
+							placeholder="Enter Student Name"
+							id="stname"
+						/>
 					</div>
 					<div>
 						<label htmlFor="username">Username:</label>
-						<input type="text" placeholder="Username" id="username" />
+						<input
+							className="bg-[#ffffff] dark:bg-[#161f2b]"
+							type="text"
+							placeholder="Username"
+							id="username"
+						/>
 					</div>
 					<div>
 						<label htmlFor="createPass">Create Password:</label>
 						<input
+							className="bg-[#ffffff] dark:bg-[#161f2b]"
 							type="password"
 							placeholder="Create Password"
 							id="createPass"
@@ -31,6 +42,7 @@ const Register = () => {
 					<div>
 						<label htmlFor="stemail">Email ID:</label>
 						<input
+							className="bg-[#ffffff] dark:bg-[#161f2b]"
 							type="email"
 							placeholder="example@gmail.com"
 							id="stemail"
@@ -40,6 +52,7 @@ const Register = () => {
 					<div>
 						<label htmlFor="mobile">Mobile No.:</label>
 						<input
+							className="bg-[#ffffff] dark:bg-[#161f2b]"
 							type="number"
 							placeholder="+91 XXXX XXXX XX"
 							id="mobile"
@@ -47,9 +60,16 @@ const Register = () => {
 						/>
 					</div>
 					<div className="submitBtn">
-						<input type="submit" value="Register" />
+						<input
+							className="bg-[#ffffff] dark:bg-[#161f2b]"
+							type="submit"
+							value="Register"
+						/>
 						<p className="registerPara">
-							if you have already account? <Link to="/login" className="underline text-blue-800"> Login </Link>
+							if you have already account?{" "}
+							<Link to="/login" className="underline text-blue-800">
+								Login
+							</Link>
 						</p>
 					</div>
 				</form>

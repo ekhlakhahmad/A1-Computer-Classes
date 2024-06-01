@@ -33,7 +33,7 @@ const Header = () => {
 			<div
 				className={`${active ? "overlayActive " : "overlayHidden"}`}
 				onClick={toggleHumburgerMenu}></div>
-			<div className="header-container dark:bg-[#161f2b]">
+				<div className="header-container dark:bg-[#161f2b]">
 				<div className="contact-details">
 					<a href="www.a1computerclasses.co.in">
 						<MdLanguage />
@@ -68,7 +68,10 @@ const Header = () => {
 						alt="logo"
 					/>
 				</NavLink>
-				<ul className={`navbar ${active ? "navactive" : "notactive"} bg-lightColPrimary dark:bg-darkColPrimary`}>
+				<ul
+					className={`navbar ${
+						active ? "navactive" : "notactive"
+					} bg-lightColPrimary dark:bg-darkColPrimary`}>
 					<li>
 						<NavLink className="navLink" to="/" onClick={toggleHumburgerMenu}>
 							Home

@@ -12,11 +12,17 @@ const Contact = () => {
 					<form action="">
 						<div>
 							<label htmlFor="stname">Name:</label>
-							<input type="text" placeholder="Enter Your Name" id="stname" />
+							<input
+								className="bg-[#ffffff] dark:bg-[#161f2b]"
+								type="text"
+								placeholder="Enter Your Name"
+								id="stname"
+							/>
 						</div>
 						<div>
 							<label htmlFor="email">E-Mail Id:</label>
 							<input
+								className="bg-[#ffffff] dark:bg-[#161f2b]"
 								type="email"
 								placeholder="Enter Your Email"
 								inputMode="email"
@@ -26,6 +32,7 @@ const Contact = () => {
 						<div>
 							<label htmlFor="number">Mobile No.:</label>
 							<input
+								className="bg-[#ffffff] dark:bg-[#161f2b]"
 								type="number"
 								placeholder="Enter Your Mobile Number"
 								inputMode="numeric"
@@ -34,12 +41,17 @@ const Contact = () => {
 						</div>
 						<div>
 							<textarea
+								className="bg-[#ffffff] dark:bg-[#161f2b]"
 								name="msg"
 								id="msg"
 								placeholder="Enter Your Message..."></textarea>
 						</div>
 						<div>
-							<input type="submit" value="Submit" />
+							<input
+								className="bg-[#ffffff] dark:bg-[#161f2b]"
+								type="submit"
+								value="Submit"
+							/>
 						</div>
 					</form>
 				</div>

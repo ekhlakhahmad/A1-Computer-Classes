@@ -18,20 +18,39 @@ const Login = () => {
 						<label htmlFor="userName">Username:</label>
 						<div className="userInput">
 							<FaUser />
-							<input type="text" placeholder="Username" id="userName" />
+							<input
+								className="bg-[#ffffff] dark:bg-[#161f2b]"
+								type="text"
+								placeholder="Username"
+								id="userName"
+							/>
 						</div>
 					</div>
 					<div>
 						<label htmlFor="Pass">Password:</label>
 						<div className="userInput">
 							<FaLock />
-							<input type="password" placeholder="Password" id="Pass" />
+							<input
+								className="bg-[#ffffff] dark:bg-[#161f2b]"
+								type="password"
+								placeholder="Password"
+								id="Pass"
+							/>
 						</div>
 					</div>
 					<div className="submitBtn">
-						<input type="submit" value="Login" id="LoginBtn" />
+						<input
+							className="bg-[#ffffff] dark:bg-[#161f2b]"
+							type="submit"
+							value="Login"
+							id="LoginBtn"
+						/>
 						<p className="loginpara">
-							if you don't have already account? <Link to="/register" className="underline text-blue-800"> Register </Link>
+							if you don't have already account?{" "}
+							<Link to="/register" className="underline text-blue-800">
+								{" "}
+								Register{" "}
+							</Link>
 						</p>
 					</div>
 				</form>
