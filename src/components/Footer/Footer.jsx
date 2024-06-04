@@ -88,7 +88,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="lastFooter bg-[#09334c] dark:bg-darkColPrimary">
+			<div className="lastFooter bg-[#092738] dark:bg-darkColPrimary">
 				<p className="text-center p-2 text-white">
 					© 2016-{new Date().getFullYear()} | A1 Computer Classes & Management
 					Pvt. Ltd. | All Rights Reserved.
