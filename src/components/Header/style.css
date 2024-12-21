@@ -16,7 +16,7 @@
 }
 .link-details {
 	display: flex;
-	gap: 10px;
+	gap: 3px;
 	button {
 		display: flex;
 		align-items: center;

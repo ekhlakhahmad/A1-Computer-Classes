@@ -2,17 +2,14 @@ import React, { useState } from "react";
 import { FaLock, FaUser } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import {
-	MdDarkMode,
 	MdLanguage,
-	MdOutlineLightMode,
-	MdOutlinePayment,
 } from "react-icons/md";
 import "./style.css";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
-import { ImCross } from "react-icons/im";
 import Switcher from "../Switcher";
+import logo from "../../../public/Logo2.png"
 
 const Header = () => {
 	const [dark, setDark] = useState(true);
@@ -64,7 +61,7 @@ const Header = () => {
 				<NavLink to="/">
 					<img
 						className="logo"
-						src="https://a1computerclasses.com/wp-content/uploads/2024/03/111.jpg"
+						src={logo}
 						alt="logo"
 					/>
 				</NavLink>

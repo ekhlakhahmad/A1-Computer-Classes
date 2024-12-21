@@ -10,7 +10,8 @@ const courses = [
 		courseName: "Speaking Course",
 	},
 	{
-		imgSrc: "https://www.tlctranslation.com/wp-content/uploads/2023/02/DTP.png",
+		imgSrc:
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2XJ1U3XhL2FnSarq33ZiAwOJwZTWtP0MHRA&s",
 		courseName: "DTP Courses",
 	},
 	{
